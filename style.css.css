@@ -1,0 +1,62 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    background-color: #ddd;
+    
+}
+.main{
+    width: 100%;
+
+}
+nav{
+    width:100%;
+    background-color:black;
+    height:80px;
+    line-height: 80px;
+    display:flex;
+    justify-content:space-between;
+
+}
+.logo a{
+     font-size: 40px;
+     color:darkred;
+     font-weight:bold;
+
+}
+
+a{
+    text-decoration: none;
+    color: darkgrey;
+    font-size: 18px;
+    transition: 0.6s all ease;
+}
+ul{
+    margin: 0px;
+}
+ul li{
+    float: left;
+    padding: 0px 10px;
+    list-style: none;
+
+}
+ul li a:hover{
+    color:purple;
+}
+.image-section{
+    float:right;
+    width:50%
+
+}
+.content{
+    font-size: 28px;
+    color: black;
+   
+ 
+    
+} 
+
+
+
+
+
